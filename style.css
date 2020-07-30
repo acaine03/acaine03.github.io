@@ -2,13 +2,6 @@ html {
     color: black;
 }
 
-@font-face {font-family: "KennedySmCapsBookGDW01-Rg"; src: url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.eot"); 
-    src: url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.eot?#iefix") format("embedded-opentype"), 
-    url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.woff2") format("woff2"), 
-    url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.woff") format("woff"), 
-    url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.ttf") format("truetype"), 
-    url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.svg#KennedySmCapsBookGDW01-Rg") format("svg"); }
-
 body {
     margin: 0;
     display: flex;
@@ -18,9 +11,9 @@ body {
 h1 {
     text-align: center;
     color: white;
-    font-family: "KennedySmCapsBookGDW01-Rg";
-    font-size: 2.39em;
-    
+    font-family: 'Cinzel', serif;
+    font-size: 3.9em;
+    margin-top: 5%;
 }
 
 a {
@@ -33,8 +26,6 @@ a:hover {
 
 .top-banner {
     display: flex;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 2.1em;
     justify-content: end;
     background-image: url("img/glitterbg.jpg");
     background-repeat: no-repeat;
@@ -50,10 +41,10 @@ a:hover {
     height: 70vh;
     width: 15vw;
     background-color: blue;
-    font-family: "KennedySmCapsBookGDW01-Rg";
-    font-size: 1.3em;
+    font-family: 'Paprika', cursive;
+    font-size: 1.2em;
     min-height: 450px;
-    line-height: 170%;
+    line-height: 250%;
 }
 
 .left-side-nav a {
@@ -71,20 +62,20 @@ a:hover {
 
 .about-us {
     display: contents;
-    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-family: 'Cinzel', serif;
     font-size: 1.2em;
     line-height: 150%;
 }
 
 .about-us-heading {
-    font: "KennedySmCapsBookGDW01-Rg";
+    font: 'Cinzel', serif;
     color: black;
     display: flex;
     align-items: center;
 }
 
 .paragraph-1 {
-    font: "KennedySmCapsBookGDW01-Rg";
+    font: 'Cinzel', serif;
     color: black;
     font-size: 1.1em;
     margin-left: 0.5em;
@@ -149,7 +140,7 @@ a:hover {
 
 .client-services {
     font-size: 1.1em;
-    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-family: 'Cinzel', serif;
     flex-flow: row wrap;
     font-size: 1.2em;
     display: flex;
@@ -166,7 +157,7 @@ a:hover {
 }
 
 .resources {
-    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-family: 'Cinzel', serif;
     display: flex;
     flex-flow: row wrap;
 }
@@ -198,13 +189,13 @@ a:hover {
 }
 
 .career-opportunities {
-    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-family: 'Cinzel', serif;
     font-size: 1.2em;
 }
 
 .contact-us {
     display: contents;
-    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-family: 'Cinzel', serif;
     font-size: 1.2em;
     line-height: 150%;
     color: black;
@@ -212,7 +203,7 @@ a:hover {
 
 .contact-information {
     display: contents;
-    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-family: 'Cinzel', serif;
     font-size: 1.2em;
     line-height: 150%;
     color: black;
