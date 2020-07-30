@@ -1,0 +1,224 @@
+html {
+    color: black;
+}
+
+@font-face {font-family: "KennedySmCapsBookGDW01-Rg"; src: url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.eot"); 
+    src: url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/a93f809ddf972ff5e894c00d85ed5839.svg#KennedySmCapsBookGDW01-Rg") format("svg"); }
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-size: 2.39em;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-banner {
+    display: flex;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.1em;
+    justify-content: end;
+    background-image: url("img/glitterbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.left-side-nav {
+    height: 70vh;
+    width: 15vw;
+    background-color: blue;
+    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-size: 1.3em;
+    min-height: 450px;
+    line-height: 170%;
+}
+
+.left-side-nav a {
+    color: black;
+}
+
+.right-side-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+}
+
+.about-us {
+    display: contents;
+    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-size: 1.2em;
+    line-height: 150%;
+}
+
+.about-us-heading {
+    font: "KennedySmCapsBookGDW01-Rg";
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.paragraph-1 {
+    font: "KennedySmCapsBookGDW01-Rg";
+    color: black;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    margin-right: 5em;
+}
+
+.paragraph-2 {
+    font: "Vidaloka";
+    color: black;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    margin-right: 5em;
+}
+
+.paragraph-3 {
+    font: "Vidaloka";
+    color: black;
+    font-size: 1.1em;
+    margin-left: 0.5em;
+    margin-right: 5em;
+}
+
+.home-nav {
+    font-family: "Permanent Marker";
+    color: #0900C3;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 2%;
+    line-height: 200%;
+}
+
+.home-greeting {
+    color: black;
+    font-family: "Vidaloka";
+    align-self: flex-start;
+}
+
+.home-nav img {
+    border-radius: 10%;
+    max-block-size: 13em;
+}
+
+.home-nav a {
+    font-family: "Vidaloka";
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.meet-our-team {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    line-height: 150%;
+    text-align: center;
+}
+
+.meet-our-team img {
+    border-radius: 50%;
+    max-block-size: 15em;
+}
+
+.client-services {
+    font-size: 1.1em;
+    font-family: "KennedySmCapsBookGDW01-Rg";
+    flex-flow: row wrap;
+    font-size: 1.2em;
+    display: flex;
+}
+
+.services-list {
+    padding: 1em;
+}
+
+.specialties-list {
+    padding: 1em;
+    columns: 2;
+    margin-left: 10%;
+}
+
+.resources {
+    font-family: "KennedySmCapsBookGDW01-Rg";
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.resources p {
+    font-size: 1.3em;
+}
+
+.affiliates {
+    text-align: center;
+    padding: 1em;
+    display: flex;
+}
+
+.group-1 {
+    padding: 1em;
+}
+
+.group-2 {
+    padding: 1em;
+}
+
+.group-3 {
+    padding: 1em;
+}
+
+.group-4 {
+    padding: 1em;
+}
+
+.career-opportunities {
+    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-size: 1.2em;
+}
+
+.contact-us {
+    display: contents;
+    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-size: 1.2em;
+    line-height: 150%;
+    color: black;
+}
+
+.contact-information {
+    display: contents;
+    font-family: "KennedySmCapsBookGDW01-Rg";
+    font-size: 1.2em;
+    line-height: 150%;
+    color: black;
+}
+
+footer {
+    color: black;
+    width: 100%vw;
+}
