@@ -1,0 +1,1 @@
+export default { header: "Client Services", view: "ClientServices" }

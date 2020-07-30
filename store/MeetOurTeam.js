@@ -1,0 +1,1 @@
+export default { header: "Meet Our Team", view: "MeetOurTeam" }

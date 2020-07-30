@@ -1,0 +1,1 @@
+export default { header: "Career", view: "Career" }

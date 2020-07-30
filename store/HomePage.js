@@ -1,0 +1,1 @@
+export default { header: "Home Page", view: "HomePage" }
