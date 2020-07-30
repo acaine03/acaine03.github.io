@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "parcel-build": "parcel build index.html && cp _redirects ./dist/",
-    "serve": "parcel index.html"
+    "serve": "parcel index.html",
+    "type": "module"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
     "stylelint-vscode": "^7.0.0-6"
   },
   "dependencies": {
+    "components": "^0.1.0",
     "lodash": "^4.17.15",
     "navigo": "^7.1.2"
   }
