@@ -1,9 +1,7 @@
-<script type="module"
-    import { Header, Nav, Main, Footer } from "./components";
-    import * as state from "./store";
-    import * as components from "./components";
-    import Navigo from 'navigo';
-</script>
+import { Header, Nav, Main, Footer } from "./components";
+import * as state from "./store";
+import * as components from "./components";
+import Navigo from 'navigo';
 
 const router = new Navigo(window.location.origin);
 
