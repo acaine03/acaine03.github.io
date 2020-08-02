@@ -1,7 +1,7 @@
 import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./store";
 import * as components from "./components";
-import Navigo from 'navigo';
+import Navigo from './/.//node_modules/navigo';
 
 
 
@@ -14,7 +14,7 @@ router
 })
 .resolve();
 
-function render(st) {console.log(st)
+function render(st) {
     document.querySelector("#root").innerHTML = `
     ${Header(st)}
     ${Nav(state.Links)}
