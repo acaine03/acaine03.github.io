@@ -1,7 +1,7 @@
 import { Header, Nav, Main, Footer } from "./components";
 import * as state from "./store";
 import * as components from "./components";
-import Navigo from './/.//node_modules/navigo';
+import Navigo from 'navigo';
 
 
 
